@@ -24,10 +24,10 @@ h3{
     color: black !important;
     -webkit-text-stroke: 0.1px black !important;
 }
-img{
+.card2d-img-top{
 	transition: all 1s;
 }
-img:hover{
+.card2d-img-top:hover{
 	transform: scale(1.1);
 }
 div{
