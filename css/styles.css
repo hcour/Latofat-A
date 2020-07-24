@@ -29,9 +29,6 @@ div{
 	transition-property: transform;
 	transition-duration: 3s;
 }
-.cart-body{
-	opacity: 0.5;
-}
 
 #headerwrap {
 	background: url(../img/background/couture-bouton.jpg) no-repeat center top;
@@ -139,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   width:100%;
   height:70%;
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -187,3 +184,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* End The flip Cards */
+
+/* Lazy loading */
+#test-image1.lazy {
+   background-image: none;
+   background-color: blue;
+}
