@@ -178,18 +178,30 @@
         </div>
 
         <div class="card2D">
-            <div class="flip-card">
-                <div class="flip-card-inner">
+            <div class="flip-card skeleton">
+                <div class="flip-card-inner skeleton">
                     <div class=" flip-card-front lazy" id="test-image1"
                          style="background-image: url('img/dress/dress8.jpg');"></div>
 
-                    <div class=" flip-card-back lazy"
+                    <div class=" flip-card-back lazy" id="test-image1"
                          style="background-image: url('img/dress/dress8.jpg');"></div>
                 </div>
             </div>
             <div class="card-body">
                 <p class="card2d-text">TODO</p>
                 <a class="btn btn-primary">цена : ?</a>
+            </div>
+        </div>
+
+        <!--Hidden Loading card-->
+        <div class="card2D" hidden>
+            <div class="flip-card skeleton">
+                <div class="skeleton">
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card2d-text skeleton">Loading ..</p>
+                <p class="card2d-text skeleton">...</p>
             </div>
         </div>
     </div>
