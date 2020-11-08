@@ -29,9 +29,6 @@ div{
 	transition-property: transform;
 	transition-duration: 3s;
 }
-.cart-body{
-	opacity: 0.5;
-}
 
 #headerwrap {
 	background: url(../img/background/couture-bouton.jpg) no-repeat center top;
@@ -139,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   width:100%;
   height:70%;
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -187,3 +184,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* End The flip Cards */
+
+/* Lazy loading */
+#test-image1.lazy {
+   background-image: none;
+   background-color: blue;
+}
+
+/* Specific Skeleton shine */
+ .skeleton {
+	 background-color: #e2e5e7 !important;
+	 background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+	 background-size: 40px 100%;
+	 background-repeat: no-repeat;
+	 background-position: left -40px top 0;
+	 animation: shine 1s ease infinite;
+}
+ @keyframes shine {
+	 to {
+		 background-position: right -40px top 0;
+	}
+}
+/* End Specific Skeleton shine */
